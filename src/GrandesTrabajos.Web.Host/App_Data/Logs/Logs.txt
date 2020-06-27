@@ -1,0 +1,356 @@
+DEBUG 2020-06-26 17:48:42,491 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-06-26 17:48:42,650 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-06-26 17:48:42,665 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.Web.Host.Startup.GrandesTrabajosWebHostModule, GrandesTrabajos.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 17:48:42,667 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.GrandesTrabajosWebCoreModule, GrandesTrabajos.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 17:48:42,668 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.GrandesTrabajosApplicationModule, GrandesTrabajos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 17:48:42,668 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.GrandesTrabajosCoreModule, GrandesTrabajos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 17:48:42,668 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 17:48:42,668 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 17:48:42,669 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 17:48:42,669 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 17:48:42,670 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.EntityFrameworkCore.GrandesTrabajosEntityFrameworkModule, GrandesTrabajos.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 17:48:42,670 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 17:48:42,670 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 17:48:42,670 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 17:48:42,670 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 17:48:42,671 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 17:48:42,671 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 17:48:42,673 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-06-26 17:48:42,798 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 17:48:42,798 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 17:48:42,798 [1    ] o.Configuration.LanguageManagementConfig - Converted GrandesTrabajos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 17:48:42,798 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 17:48:43,272 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: GrandesTrabajos.EntityFrameworkCore.GrandesTrabajosDbContext, GrandesTrabajos.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 17:48:45,214 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-06-26 17:48:45,471 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-06-26 17:48:45,838 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-06-26 17:48:45,985 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GrandesTrabajos
+DEBUG 2020-06-26 17:48:46,264 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-06-26 17:48:46,765 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-06-26 17:48:47,034 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[GrandesTrabajos.MultiTenancy.Tenant, GrandesTrabajos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[GrandesTrabajos.Authorization.Users.User, GrandesTrabajos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-06-26 17:48:47,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-06-26 17:48:47,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-06-26 17:48:47,114 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Users.Dto.CreateUserDto
+DEBUG 2020-06-26 17:48:47,115 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Users.Dto.UserDto
+DEBUG 2020-06-26 17:48:47,115 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-06-26 17:48:47,115 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-06-26 17:48:47,115 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Roles.Dto.PermissionDto
+DEBUG 2020-06-26 17:48:47,115 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-06-26 17:48:47,116 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.MultiTenancy.Dto.TenantDto
+FATAL 2020-06-26 17:53:47,552 [1    ] Abp.AbpBootstrapper                      - Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AbpEditions'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at GrandesTrabajos.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.CreateEditions() in /Users/manuelfondovila/Documents/Projects/5.6.0/grandes-trabajos/src/GrandesTrabajos.EntityFrameworkCore/EntityFrameworkCore/Seed/Host/DefaultEditionCreator.cs:line 25
+   at GrandesTrabajos.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.Create() in /Users/manuelfondovila/Documents/Projects/5.6.0/grandes-trabajos/src/GrandesTrabajos.EntityFrameworkCore/EntityFrameworkCore/Seed/Host/DefaultEditionCreator.cs:line 20
+   at GrandesTrabajos.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in /Users/manuelfondovila/Documents/Projects/5.6.0/grandes-trabajos/src/GrandesTrabajos.EntityFrameworkCore/EntityFrameworkCore/Seed/Host/InitialHostDbBuilder.cs:line 14
+   at GrandesTrabajos.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(GrandesTrabajosDbContext context) in /Users/manuelfondovila/Documents/Projects/5.6.0/grandes-trabajos/src/GrandesTrabajos.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 25
+   at GrandesTrabajos.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in /Users/manuelfondovila/Documents/Projects/5.6.0/grandes-trabajos/src/GrandesTrabajos.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 41
+   at GrandesTrabajos.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in /Users/manuelfondovila/Documents/Projects/5.6.0/grandes-trabajos/src/GrandesTrabajos.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 17
+   at GrandesTrabajos.EntityFrameworkCore.GrandesTrabajosEntityFrameworkModule.PostInitialize() in /Users/manuelfondovila/Documents/Projects/5.6.0/grandes-trabajos/src/GrandesTrabajos.EntityFrameworkCore/EntityFrameworkCore/GrandesTrabajosEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+ClientConnectionId:7c7d0b23-8df8-418e-9301-e93132bc5710
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AbpEditions'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at GrandesTrabajos.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.CreateEditions() in /Users/manuelfondovila/Documents/Projects/5.6.0/grandes-trabajos/src/GrandesTrabajos.EntityFrameworkCore/EntityFrameworkCore/Seed/Host/DefaultEditionCreator.cs:line 25
+   at GrandesTrabajos.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.Create() in /Users/manuelfondovila/Documents/Projects/5.6.0/grandes-trabajos/src/GrandesTrabajos.EntityFrameworkCore/EntityFrameworkCore/Seed/Host/DefaultEditionCreator.cs:line 20
+   at GrandesTrabajos.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in /Users/manuelfondovila/Documents/Projects/5.6.0/grandes-trabajos/src/GrandesTrabajos.EntityFrameworkCore/EntityFrameworkCore/Seed/Host/InitialHostDbBuilder.cs:line 14
+   at GrandesTrabajos.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(GrandesTrabajosDbContext context) in /Users/manuelfondovila/Documents/Projects/5.6.0/grandes-trabajos/src/GrandesTrabajos.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 25
+   at GrandesTrabajos.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in /Users/manuelfondovila/Documents/Projects/5.6.0/grandes-trabajos/src/GrandesTrabajos.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 41
+   at GrandesTrabajos.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in /Users/manuelfondovila/Documents/Projects/5.6.0/grandes-trabajos/src/GrandesTrabajos.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 17
+   at GrandesTrabajos.EntityFrameworkCore.GrandesTrabajosEntityFrameworkModule.PostInitialize() in /Users/manuelfondovila/Documents/Projects/5.6.0/grandes-trabajos/src/GrandesTrabajos.EntityFrameworkCore/EntityFrameworkCore/GrandesTrabajosEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+ClientConnectionId:7c7d0b23-8df8-418e-9301-e93132bc5710
+Error Number:208,State:1,Class:16
+DEBUG 2020-06-26 18:37:02,047 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-06-26 18:37:02,259 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-06-26 18:37:02,273 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.Web.Host.Startup.GrandesTrabajosWebHostModule, GrandesTrabajos.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:37:02,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.GrandesTrabajosWebCoreModule, GrandesTrabajos.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:37:02,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.GrandesTrabajosApplicationModule, GrandesTrabajos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:37:02,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.GrandesTrabajosCoreModule, GrandesTrabajos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:37:02,276 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:37:02,276 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:37:02,276 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:37:02,276 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:37:02,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.EntityFrameworkCore.GrandesTrabajosEntityFrameworkModule, GrandesTrabajos.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:37:02,280 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:37:02,280 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:37:02,280 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:37:02,280 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:37:02,281 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:37:02,281 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:37:02,284 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-06-26 18:37:02,373 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 18:37:02,373 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 18:37:02,373 [1    ] o.Configuration.LanguageManagementConfig - Converted GrandesTrabajos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 18:37:02,373 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 18:37:02,740 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: GrandesTrabajos.EntityFrameworkCore.GrandesTrabajosDbContext, GrandesTrabajos.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:37:04,160 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-06-26 18:37:04,390 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-06-26 18:37:04,728 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-06-26 18:37:04,855 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GrandesTrabajos
+DEBUG 2020-06-26 18:37:05,062 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-06-26 18:37:05,496 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-06-26 18:37:05,710 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[GrandesTrabajos.MultiTenancy.Tenant, GrandesTrabajos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[GrandesTrabajos.Authorization.Users.User, GrandesTrabajos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-06-26 18:37:05,775 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-06-26 18:37:05,775 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-06-26 18:37:05,781 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Users.Dto.CreateUserDto
+DEBUG 2020-06-26 18:37:05,781 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Users.Dto.UserDto
+DEBUG 2020-06-26 18:37:05,782 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-06-26 18:37:05,782 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-06-26 18:37:05,782 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Roles.Dto.PermissionDto
+DEBUG 2020-06-26 18:37:05,782 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-06-26 18:37:05,782 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.MultiTenancy.Dto.TenantDto
+DEBUG 2020-06-26 18:38:18,454 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-06-26 18:38:18,563 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-06-26 18:38:18,607 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.Web.Host.Startup.GrandesTrabajosWebHostModule, GrandesTrabajos.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:38:18,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.GrandesTrabajosWebCoreModule, GrandesTrabajos.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:38:18,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.GrandesTrabajosApplicationModule, GrandesTrabajos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:38:18,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.GrandesTrabajosCoreModule, GrandesTrabajos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:38:18,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:38:18,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:38:18,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:38:18,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:38:18,611 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.EntityFrameworkCore.GrandesTrabajosEntityFrameworkModule, GrandesTrabajos.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:38:18,611 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:38:18,611 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:38:18,612 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:38:18,612 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:38:18,612 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:38:18,613 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:38:18,617 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-06-26 18:38:18,708 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 18:38:18,708 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 18:38:18,708 [1    ] o.Configuration.LanguageManagementConfig - Converted GrandesTrabajos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 18:38:18,708 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 18:38:19,129 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: GrandesTrabajos.EntityFrameworkCore.GrandesTrabajosDbContext, GrandesTrabajos.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:38:20,547 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-06-26 18:38:20,760 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-06-26 18:38:21,078 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-06-26 18:38:21,205 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GrandesTrabajos
+DEBUG 2020-06-26 18:38:21,420 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-06-26 18:38:21,792 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-06-26 18:38:22,022 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[GrandesTrabajos.MultiTenancy.Tenant, GrandesTrabajos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[GrandesTrabajos.Authorization.Users.User, GrandesTrabajos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-06-26 18:38:22,077 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-06-26 18:38:22,077 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-06-26 18:38:22,083 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Users.Dto.CreateUserDto
+DEBUG 2020-06-26 18:38:22,083 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Users.Dto.UserDto
+DEBUG 2020-06-26 18:38:22,083 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-06-26 18:38:22,084 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-06-26 18:38:22,084 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Roles.Dto.PermissionDto
+DEBUG 2020-06-26 18:38:22,084 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-06-26 18:38:22,084 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.MultiTenancy.Dto.TenantDto
+DEBUG 2020-06-26 18:48:09,172 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-06-26 18:48:09,287 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-06-26 18:48:09,342 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.Web.Host.Startup.GrandesTrabajosWebHostModule, GrandesTrabajos.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:48:09,343 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.GrandesTrabajosWebCoreModule, GrandesTrabajos.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:48:09,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.GrandesTrabajosApplicationModule, GrandesTrabajos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:48:09,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.GrandesTrabajosCoreModule, GrandesTrabajos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:48:09,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:48:09,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:48:09,345 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:48:09,345 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:48:09,346 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.EntityFrameworkCore.GrandesTrabajosEntityFrameworkModule, GrandesTrabajos.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:48:09,347 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:48:09,347 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:48:09,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:48:09,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:48:09,349 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:48:09,349 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:48:09,354 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-06-26 18:48:09,487 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 18:48:09,487 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 18:48:09,487 [1    ] o.Configuration.LanguageManagementConfig - Converted GrandesTrabajos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 18:48:09,487 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 18:48:09,940 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: GrandesTrabajos.EntityFrameworkCore.GrandesTrabajosDbContext, GrandesTrabajos.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:48:11,526 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-06-26 18:48:11,747 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-06-26 18:48:12,069 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-06-26 18:48:12,204 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GrandesTrabajos
+DEBUG 2020-06-26 18:48:12,408 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-06-26 18:48:12,809 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-06-26 18:48:13,153 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[GrandesTrabajos.MultiTenancy.Tenant, GrandesTrabajos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[GrandesTrabajos.Authorization.Users.User, GrandesTrabajos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-06-26 18:48:13,219 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-06-26 18:48:13,219 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-06-26 18:48:13,224 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Users.Dto.CreateUserDto
+DEBUG 2020-06-26 18:48:13,224 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Users.Dto.UserDto
+DEBUG 2020-06-26 18:48:13,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-06-26 18:48:13,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-06-26 18:48:13,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Roles.Dto.PermissionDto
+DEBUG 2020-06-26 18:48:13,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-06-26 18:48:13,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.MultiTenancy.Dto.TenantDto
+DEBUG 2020-06-26 18:52:43,174 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-06-26 18:52:43,277 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-06-26 18:52:43,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.Web.Host.Startup.GrandesTrabajosWebHostModule, GrandesTrabajos.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:52:43,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.GrandesTrabajosWebCoreModule, GrandesTrabajos.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:52:43,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.GrandesTrabajosApplicationModule, GrandesTrabajos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:52:43,301 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.GrandesTrabajosCoreModule, GrandesTrabajos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:52:43,301 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:52:43,301 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:52:43,301 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:52:43,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:52:43,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.EntityFrameworkCore.GrandesTrabajosEntityFrameworkModule, GrandesTrabajos.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:52:43,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:52:43,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:52:43,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:52:43,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:52:43,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:52:43,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:52:43,305 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-06-26 18:52:43,417 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 18:52:43,417 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 18:52:43,417 [1    ] o.Configuration.LanguageManagementConfig - Converted GrandesTrabajos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 18:52:43,417 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 18:52:43,833 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: GrandesTrabajos.EntityFrameworkCore.GrandesTrabajosDbContext, GrandesTrabajos.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 18:52:45,517 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-06-26 18:52:45,737 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-06-26 18:52:46,072 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-06-26 18:52:46,202 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GrandesTrabajos
+DEBUG 2020-06-26 18:52:46,410 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-06-26 18:52:46,797 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-06-26 18:52:47,018 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[GrandesTrabajos.MultiTenancy.Tenant, GrandesTrabajos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[GrandesTrabajos.Authorization.Users.User, GrandesTrabajos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-06-26 18:52:47,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-06-26 18:52:47,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-06-26 18:52:47,074 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Users.Dto.CreateUserDto
+DEBUG 2020-06-26 18:52:47,074 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Users.Dto.UserDto
+DEBUG 2020-06-26 18:52:47,075 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-06-26 18:52:47,075 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-06-26 18:52:47,075 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Roles.Dto.PermissionDto
+DEBUG 2020-06-26 18:52:47,075 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-06-26 18:52:47,075 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.MultiTenancy.Dto.TenantDto
+DEBUG 2020-06-26 19:00:04,527 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-06-26 19:00:04,626 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-06-26 19:00:04,644 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.Web.Host.Startup.GrandesTrabajosWebHostModule, GrandesTrabajos.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 19:00:04,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.GrandesTrabajosWebCoreModule, GrandesTrabajos.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 19:00:04,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.GrandesTrabajosApplicationModule, GrandesTrabajos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 19:00:04,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.GrandesTrabajosCoreModule, GrandesTrabajos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 19:00:04,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 19:00:04,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 19:00:04,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 19:00:04,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 19:00:04,648 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GrandesTrabajos.EntityFrameworkCore.GrandesTrabajosEntityFrameworkModule, GrandesTrabajos.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 19:00:04,649 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 19:00:04,649 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 19:00:04,649 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 19:00:04,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 19:00:04,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 19:00:04,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 19:00:04,652 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-06-26 19:00:04,741 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 19:00:04,742 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 19:00:04,742 [1    ] o.Configuration.LanguageManagementConfig - Converted GrandesTrabajos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 19:00:04,742 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-26 19:00:05,092 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: GrandesTrabajos.EntityFrameworkCore.GrandesTrabajosDbContext, GrandesTrabajos.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-26 19:00:06,460 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-06-26 19:00:06,717 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-06-26 19:00:07,060 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-06-26 19:00:07,183 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GrandesTrabajos
+DEBUG 2020-06-26 19:00:07,388 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-06-26 19:00:07,743 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-06-26 19:00:07,961 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[GrandesTrabajos.MultiTenancy.Tenant, GrandesTrabajos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[GrandesTrabajos.Authorization.Users.User, GrandesTrabajos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-06-26 19:00:08,027 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-06-26 19:00:08,027 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-06-26 19:00:08,035 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Users.Dto.CreateUserDto
+DEBUG 2020-06-26 19:00:08,036 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Users.Dto.UserDto
+DEBUG 2020-06-26 19:00:08,036 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-06-26 19:00:08,036 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-06-26 19:00:08,036 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.Roles.Dto.PermissionDto
+DEBUG 2020-06-26 19:00:08,036 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-06-26 19:00:08,037 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GrandesTrabajos.MultiTenancy.Dto.TenantDto
+INFO  2020-06-26 19:00:23,741 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-06-26 19:00:24,054 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using '/Users/manuelfondovila/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+WARN  2020-06-26 19:00:24,123 [1    ] Microsoft.AspNetCore.Server.Kestrel      - Overriding address(es) 'http://localhost:21021/'. Binding to endpoints defined in UseKestrel() instead.
+INFO  2020-06-26 19:00:24,244 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-06-26 19:00:24,370 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'GrandesTrabajos.Web.Host.Controllers.HomeController.Index (GrandesTrabajos.Web.Host)'
+INFO  2020-06-26 19:00:28,977 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GrandesTrabajos.Web.Host.Controllers.HomeController (GrandesTrabajos.Web.Host).
+INFO  2020-06-26 19:00:30,608 [4    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-06-26 19:00:30,617 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action GrandesTrabajos.Web.Host.Controllers.HomeController.Index (GrandesTrabajos.Web.Host) in 1632.5682ms
+INFO  2020-06-26 19:00:30,621 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'GrandesTrabajos.Web.Host.Controllers.HomeController.Index (GrandesTrabajos.Web.Host)'
+INFO  2020-06-26 19:00:30,633 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6390.0593ms 302 
+INFO  2020-06-26 19:00:30,663 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-06-26 19:00:30,688 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.4732ms 301 
+INFO  2020-06-26 19:00:30,691 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-06-26 19:00:30,731 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 39.2477ms 200 text/html;charset=utf-8
+INFO  2020-06-26 19:00:32,037 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-06-26 19:00:32,043 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'GrandesTrabajos.Web.Host.Controllers.HomeController.Index (GrandesTrabajos.Web.Host)'
+INFO  2020-06-26 19:00:32,053 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GrandesTrabajos.Web.Host.Controllers.HomeController (GrandesTrabajos.Web.Host).
+INFO  2020-06-26 19:00:32,266 [5    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-06-26 19:00:32,270 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action GrandesTrabajos.Web.Host.Controllers.HomeController.Index (GrandesTrabajos.Web.Host) in 213.0628ms
+INFO  2020-06-26 19:00:32,274 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'GrandesTrabajos.Web.Host.Controllers.HomeController.Index (GrandesTrabajos.Web.Host)'
+INFO  2020-06-26 19:00:32,278 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 241.8025ms 302 
+INFO  2020-06-26 19:00:32,281 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-06-26 19:00:32,285 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.1993ms 301 
+INFO  2020-06-26 19:00:32,288 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-06-26 19:00:32,292 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.2152ms 200 text/html;charset=utf-8
+INFO  2020-06-26 19:00:32,327 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-06-26 19:00:32,331 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-06-26 19:00:32,378 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-06-26 19:00:32,449 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-06-26 19:00:32,475 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-06-26 19:00:32,572 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: '/Users/manuelfondovila/Documents/Projects/5.6.0/grandes-trabajos/src/GrandesTrabajos.Web.Host/wwwroot/swagger/ui/abp.swagger.js'
+INFO  2020-06-26 19:00:32,572 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: '/Users/manuelfondovila/Documents/Projects/5.6.0/grandes-trabajos/src/GrandesTrabajos.Web.Host/wwwroot/swagger/ui/abp.js'
+INFO  2020-06-26 19:00:32,576 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 100.3658ms 200 application/javascript
+INFO  2020-06-26 19:00:32,579 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 194.2162ms 200 application/javascript
+INFO  2020-06-26 19:00:32,631 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-06-26 19:00:32,664 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-06-26 19:00:32,670 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 342.7838ms 200 text/css
+INFO  2020-06-26 19:00:32,675 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 311.6171ms 200 application/javascript
+INFO  2020-06-26 19:00:32,684 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-06-26 19:00:32,687 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 361.5955ms 200 application/javascript
+INFO  2020-06-26 19:00:32,787 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-06-26 19:00:32,790 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'GrandesTrabajos.Web.Host.Controllers.AntiForgeryController.SetCookie (GrandesTrabajos.Web.Host)'
+INFO  2020-06-26 19:00:32,799 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller GrandesTrabajos.Web.Host.Controllers.AntiForgeryController (GrandesTrabajos.Web.Host).
+INFO  2020-06-26 19:00:32,820 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-06-26 19:00:32,971 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2020-06-26 19:00:32,975 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-06-26 19:00:32,979 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.0893ms 200 image/png
+INFO  2020-06-26 19:00:32,995 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 173.8117ms 200 application/json;charset=utf-8
+INFO  2020-06-26 19:00:33,049 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-06-26 19:00:33,159 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action GrandesTrabajos.Web.Host.Controllers.AntiForgeryController.SetCookie (GrandesTrabajos.Web.Host) in 357.2938ms
+INFO  2020-06-26 19:00:33,162 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'GrandesTrabajos.Web.Host.Controllers.AntiForgeryController.SetCookie (GrandesTrabajos.Web.Host)'
+INFO  2020-06-26 19:00:33,165 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 377.9564ms 200 application/json; charset=utf-8
