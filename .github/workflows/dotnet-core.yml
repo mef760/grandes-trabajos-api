@@ -1,25 +1,29 @@
-name: .NET Core
+name: Build code and deploy to Azure
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+on: [push]
 
 jobs:
   build:
-
+    name: Build Code
     runs-on: ubuntu-latest
-
+    
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v1
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.301
-    - name: Install dependencies
-      run: dotnet restore
-    - name: Build
-      run: dotnet build --configuration Release --no-restore
-    - name: Test
-      run: dotnet test --no-restore --verbosity normal
+    - name: Build with dotnet
+      run: dotnet build --configuration Release
+
+  deploy:
+    needs: build
+    name: Deploy App
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: deploy to azure web app
+      uses: azure/appservice-actions/webapp@master
+      with: 
+        app-name: grandestrabajos-api
+        publish-profile: ${{ secrets.publish_profile }}    
